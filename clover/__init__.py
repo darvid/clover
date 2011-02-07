@@ -7,6 +7,7 @@
     :copyright: Copyright 2010 David 'dav' Gidwani
     :license: BSD, see LICENSE.
 """
+__import__("pkg_resources").declare_namespace(__name__)
 import datetime
 import json
 import urllib
